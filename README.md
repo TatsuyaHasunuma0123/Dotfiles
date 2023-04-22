@@ -2,7 +2,7 @@
 
 ![nvim screenshot](./images/img2.png)
 
-# Tatsuya's dotfiles
+# My dotfiles
 
 **:collision:Warning**: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
@@ -21,6 +21,8 @@ Check out my app called [Inkdrop](https://www.inkdrop.app/)
 - PowerShell config
 
 ## Neovim setup
+
+put `nvim` folder put on `~/Appdata/Local/`
 
 Requires [Neovim](https://neovim.io/) (>= 0.8)
 
@@ -50,18 +52,12 @@ Requires [Neovim](https://neovim.io/) (>= 0.8)
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free mode
 - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Markdown live preview
 
-## Shell setup (macOS & Linux)
+run `:PackerSync` and `:PackerInstall` command in nvim.
 
-- [Fish shell](https://fishshell.com/)
-- [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
-- [Tide](https://github.com/IlanCosman/tide) - Shell theme. Use version 5: `fisher install ilancosman/tide@v5`
-- [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts. I use Hack.
-- [z for fish](https://github.com/jethrokuan/z) - Directory jumping
-- [Exa](https://the.exa.website/) - `ls` replacement
-- [ghq](https://github.com/x-motemen/ghq) - Local Git repository organizer
-- [peco](https://github.com/peco/peco) - Interactive filtering
 
-## PowerShell setup (Windows)
+## PowerShell setup
+
+put `powershell` folder put on `~/.config`
 
 - [Scoop](https://scoop.sh/) - A command-line installer
 - [Git for Windows](https://gitforwindows.org/)
@@ -70,21 +66,3 @@ Requires [Neovim](https://neovim.io/) (>= 0.8)
 - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/) - Cmdlets for customizing the editing environment, used for autocompletion
 - [z](https://www.powershellgallery.com/packages/z) - Directory jumper
 - [PSFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder
-
-## How to use
-
-Watch my video tutorials:
-
-1. [My dev workflow using tmux and vim](https://www.youtube.com/watch?v=sSOfr2MtRU8&list=PLxQA0uNgQDCICMRwlOzWAZBPL05XBC_br&index=10)
-2. [My vim setup to speed up JavaScript coding for my Electron and React Native apps](https://www.youtube.com/watch?v=UZBjt04y4Oo&list=PLxQA0uNgQDCICMRwlOzWAZBPL05XBC_br&index=3)
-   - [Blogpost](https://dev.to/craftzdog/my-vim-setup-to-speed-up-javascript-coding-for-my-electron-and-react-native-apps-4ebp)
-3. [A productive command-line Git workflow for indie app developers](https://www.youtube.com/watch?v=qKpY7t5m35k&list=PLxQA0uNgQDCICMRwlOzWAZBPL05XBC_br&index=4)
-   - [Blogpost](https://dev.to/craftzdog/a-productive-command-line-git-workflow-for-indie-app-developers-k7d)
-4. [My Fish shell workflow for coding](https://www.youtube.com/watch?v=KKxhf50FIPI)
-5. [How to set up PowerShell prompt with Oh My Posh on Windows 11](https://www.youtube.com/watch?v=5-aK2_WwrmM)
-
-## About me
-
-- [Twitter @inkdrop_app](https://twitter.com/inkdrop_app)
-- [Blog](https://blog.inkdrop.app/)
-- [My product: Inkdrop - Markdown note-taking app](https://www.inkdrop.app/)
