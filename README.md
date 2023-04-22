@@ -2,9 +2,9 @@
 
 ![nvim screenshot](./images/img2.png)
 
-# Takuya's dotfiles
+# Tatsuya's dotfiles
 
-**Warning**: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
+**:collision:Warning**: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
 ### Looking for a Markdown note-taking app?
 
